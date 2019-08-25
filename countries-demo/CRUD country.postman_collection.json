@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "77ddc644-3413-4bbf-97a3-29a1f5e45d70",
+		"name": "CRUD country",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get country by continent name",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"correo\" : \"holi@gmail.com\",\n\t\"contraseña\" : \"123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/continent/name/africa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"continent",
+						"name",
+						"africa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "save country",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"New Cool Country\",\n\t\"capital\" : \"Cool Capital\",\n\t\"continent\" : \"north_america\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete country",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/Mexico",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"Mexico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update country",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"countryId\" : 182,\n\t\"name\" : \"New Cool Country V2\",\n\t\"capital\" : \"Cool Capital V2\",\n\t\"continent\" : \"north_america\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get country by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/id/146",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"id",
+						"146"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
