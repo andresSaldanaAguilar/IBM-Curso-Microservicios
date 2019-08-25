@@ -1,7 +1,7 @@
 ## CRUD countries
 
 
-#Correr el proyecto
+# Correr el proyecto
 
 ---
 
@@ -15,6 +15,6 @@
 
 ---
 
-#Probar el proyecto
+# Probar el proyecto
 
 Para probar los endpoints, puedes utilizar la colección de postman ubicada en el proyecto raiz de 'contries-demo'
