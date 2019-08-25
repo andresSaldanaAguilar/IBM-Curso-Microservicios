@@ -3,8 +3,6 @@
 
 # Correr el proyecto
 
----
-
 1. Clonar el repositorio en tu computadora
 2. Importar el proyecto en el directorio 'countries-demo' en tu IDE (Eclipse, STS, VS Code)
 3. Correr el comando Maven Clean
