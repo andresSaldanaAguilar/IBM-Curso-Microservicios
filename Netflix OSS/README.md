@@ -1,5 +1,6 @@
-## CRUD countries
-
+# Correr el proyecto 
+Link al video del proyecto corriendo:
+https://drive.google.com/open?id=1rd_KQ3KBVm7_lR0rLPsBVy6RXc2eaNja
 
 # Correr el proyecto
 
@@ -17,3 +18,4 @@
 Para probar su funcionamiento, podemos hacer una peticion GET a la siguiente URI:
 
 http://localhost:8762/escom-chistes-service/hello
+
