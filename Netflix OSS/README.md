@@ -1,4 +1,4 @@
-# Correr el proyecto 
+# Evidencias en video 
 Link al video del proyecto corriendo:
 https://drive.google.com/open?id=1rd_KQ3KBVm7_lR0rLPsBVy6RXc2eaNja
 
